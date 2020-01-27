@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
       <File FileName="Startup.cs" Line="84" Column="1" />
-      <File FileName="Data/AuthRepository.cs" Line="41" Column="9" />
+      <File FileName="Data/AuthRepository.cs" />
       <File FileName="Controllers/AuthController.cs" />
     </Files>
     <Pads>
@@ -21,9 +21,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
