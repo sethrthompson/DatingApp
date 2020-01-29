@@ -43,7 +43,7 @@ namespace DatingApp.API.Controllers
 
             return StatusCode(201);
         }
-
+  
         [HttpPost("login")]
         public async Task<ActionResult> Login(UserForLoginDto userForLoginDto)
         {
@@ -79,6 +79,6 @@ namespace DatingApp.API.Controllers
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
-        }
+        } 
     }
 }
